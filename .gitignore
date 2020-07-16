@@ -38,6 +38,8 @@
 *.suo
 *.opensdf
 *.sdf
+*/.vs
+*.VC
 *.VC.db
 *.VC.opendb
 

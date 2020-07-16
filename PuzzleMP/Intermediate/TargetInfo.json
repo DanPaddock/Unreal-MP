@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PuzzleMP",
+			"Path": "C:\\Users\\danpa\\Documents\\Unreal Projects\\Unreal-MP\\PuzzleMP\\Source\\PuzzleMP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PuzzleMPEditor",
+			"Path": "C:\\Users\\danpa\\Documents\\Unreal Projects\\Unreal-MP\\PuzzleMP\\Source\\PuzzleMPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

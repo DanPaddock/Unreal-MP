@@ -1,0 +1,2 @@
+C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\Definitions.PuzzleMP.h
+C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Source\PuzzleMP\PuzzleMP.h
