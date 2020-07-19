@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PuzzleMP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5C424C3D-D7C8-418B-A8BF-B6F1B15EA24E}</UniqueIdentifier>
+      <UniqueIdentifier>{D0664F3E-2CE1-4A8F-904B-E4D8511CD621}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PuzzleMP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F0DCB3E5-CDAE-4879-8CAD-D9C4D074A537}</UniqueIdentifier>
+      <UniqueIdentifier>{F5DA29C2-6357-4BE4-9B9B-3B152930F9AC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PuzzleMP">
-      <UniqueIdentifier>{038753E9-E617-44B9-9DCA-0DEB1919DED0}</UniqueIdentifier>
+      <UniqueIdentifier>{70B75416-F469-4EC7-8576-59E1F4DA8228}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PuzzleMP\MovingPlatform.cpp">
+      <Filter>Source\PuzzleMP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzleMP\MovingPlatform.h">
+      <Filter>Source\PuzzleMP</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PuzzleMP\PuzzleMP.Build.cs">
       <Filter>Source\PuzzleMP</Filter>
     </None>
