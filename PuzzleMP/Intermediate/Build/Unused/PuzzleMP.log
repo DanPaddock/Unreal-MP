@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\danpa\Documents\Unreal Projects\Unreal-MP).
+  Parsing headers for PuzzleMPEditor
+    Running UnrealHeaderTool "C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\PuzzleMP.uproject" "C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\PuzzleMPEditor\Development\PuzzleMPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danpa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for PuzzleMPEditor in 25.1477935 seconds
+  Building PuzzleMPEditor...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] MovingPlatform.cpp
+    [2/6] PuzzleMP.init.gen.cpp
+    [3/6] MovingPlatform.gen.cpp
+    [4/6] UE4Editor-PuzzleMP-0008.lib
+       Creating library C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\UE4Editor-PuzzleMP-0008.lib and object C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\UE4Editor-PuzzleMP-0008.exp
+    [5/6] UE4Editor-PuzzleMP-0008.dll
+       Creating library C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\UE4Editor-PuzzleMP-0008.suppressed.lib and object C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\UE4Editor-PuzzleMP-0008.suppressed.exp
+    [6/6] PuzzleMPEditor.target
+  Total time in Parallel executor: 6.39 seconds
+  Total execution time: 32.35 seconds

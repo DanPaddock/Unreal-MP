@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PuzzleMP-0321.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\PuzzleMPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\MovingPlatform.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMP.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMPCharacter.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMPGameMode.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\MovingPlatform.gen.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMP.init.gen.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMPCharacter.gen.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\PuzzleMPGameMode.gen.cpp.obj"
+"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\Default.rc2.res"
+/OUT:"C:\Users\danpa\Documents\Unreal Projects\Unreal-MP\PuzzleMP\Intermediate\Build\Win64\UE4Editor\Development\PuzzleMP\UE4Editor-PuzzleMP-0321.lib"
+/INCLUDE:IMPLEMENT_MODULE_PuzzleMP

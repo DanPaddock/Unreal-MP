@@ -9,13 +9,40 @@ AMovingPlatform::AMovingPlatform()
 	SetMobility(EComponentMobility::Movable);
 }
 
+void AMovingPlatform::BeginPlay() 
+{
+	Super::BeginPlay();
+
+	if (HasAuthority()) // Server
+	{
+		SetReplicates(true);
+		SetReplicateMovement(true);
+	}
+
+	GlobalStartLocation = GetActorLocation();
+	GlobalTargetLocation = GetTransform().TransformPosition(TargetLocation);
+}
+
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector Location = GetActorLocation();
-	Location += FVector(5 * DeltaTime, 0, 0);
+	if (HasAuthority()) 
+	{
+		FVector Location = GetActorLocation();
+		float JourneyLength = (GlobalTargetLocation - GlobalStartLocation).Size();
+		float JourneyTraveled = (Location - GlobalStartLocation).Size();
 
-	SetActorLocation(Location);
+		// To reverse direction, swaps target locations
+		if (JourneyTraveled >= JourneyLength) {
+			FVector Swap = GlobalStartLocation;
+			GlobalStartLocation = GlobalTargetLocation;
+			GlobalTargetLocation = Swap;
+		}
+		GlobalTargetLocation = GetTransform().TransformPosition(TargetLocation);
+		FVector Direction = (GlobalTargetLocation - GlobalStartLocation).GetSafeNormal();
+		Location += Speed * DeltaTime * Direction;
+		SetActorLocation(Location);
+	}
 }
 

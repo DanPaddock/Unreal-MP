@@ -17,6 +17,17 @@ class PUZZLEMP_API AMovingPlatform : public AStaticMeshActor
 public:
 	AMovingPlatform();
 
-	void Tick(float DeltaTime) override;
-	
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+	FVector TargetLocation;
+
+	UPROPERTY(EditAnywhere)
+	float Speed = 20;
+
+private:
+	FVector GlobalTargetLocation;
+	FVector GlobalStartLocation;
 };
